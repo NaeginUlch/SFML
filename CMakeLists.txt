@@ -11,6 +11,7 @@ file(GLOB SRC
 )
 
 
+include_directories(src)
 add_executable(main 
     main.cpp
     ${SRC}
